@@ -92,7 +92,7 @@
       }
 
       .bd-mode-toggle .dropdown-menu .active .bi {
-        display: block !important;
+        display: none!important;
       }
     </style>
 
@@ -124,6 +124,7 @@
               aria-expanded="false"
               data-bs-toggle="dropdown"
               aria-label="Toggle theme (auto)">
+            
         <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
         <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
       </button>
@@ -153,7 +154,7 @@
     </div>
 
     
-<!-- <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+<svg xmlns="http://www.w3.org/2000/svg" class="d-none">
   <symbol id="aperture" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
     <circle cx="12" cy="12" r="10"/>
     <path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/>
@@ -164,13 +165,13 @@
   <symbol id="chevron-right" viewBox="0 0 16 16">
     <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
   </symbol>
-</svg> -->
+</svg>
 
 <nav class="navbar navbar-expand-md bg-dark sticky-top border-bottom" data-bs-theme="dark">
   <div class="container">
-    <a class="navbar-brand d-md-none" href="#">
+    <a class="navbar-brand d-md-none" href="#" class= "action_mode">
       <svg class="bi" width="24" height="24"><use xlink:href="#aperture"/></svg>
-      Aperture
+     EsnosSply
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
